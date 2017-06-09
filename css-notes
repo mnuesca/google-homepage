@@ -1,0 +1,13 @@
+<style> .... </style>
+    -Enables CSS into html code
+    -Usually nested in the <head> tag
+
+!!!!!!!!!!!!!!!!!!!!    OR (WHICH IS BETTER!)
+
+Use .css files
+    -Must include the <style> tag
+
+<link href="link-to-css" type="text/css" rel="stylesheet">
+    -You must link your html to css sheet using this tag
+    -Must be written in the head
+    - link-to-css can be a url, or a relative path if style.css index.html are in the same directory
