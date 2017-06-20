@@ -1,0 +1,147 @@
+*
+{box-sizing:border-box;
+  -webkit-appearance:none;
+  font-family:"Roboto";
+}
+
+.top_bar{
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 130px;
+  font-size: 13px;
+  color:#000;
+  word-spacing: 12px;
+  background-color: rgb(250,250,250);
+  padding-top:25px;
+  border: solid 1px rgb(232,232,232);
+}
+
+img{
+  display:inline-block;
+  position:relative;
+  width: 15%;
+  margin:auto;
+
+}
+
+#searchbar{
+  vertical-align: top;
+  width:70%;
+  height:35px;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+  border: 1px solid #eaeaea;
+  font-size: 16px;
+}
+
+.top_bar button{
+  background-image:-webkit-linear-gradient(top, rgb(67,135,253), rgb(70,131,234));
+  border: solid 1px rgb(70,131,234);
+  border-radius:3px;
+  radius: 15px;
+  height:25%;
+  color:white;
+  font-weight: bold;
+  font-size:13px;
+  width:70px;
+  vertical-align: middle;
+}
+button:active{
+  background-color: -webkit-linear-gradient(top, rgb(10,80,253), rgb(15,71,234))
+}
+
+.suite_menu{
+  display:inline-block;
+  background-image: url("https://ssl.gstatic.com/gb/images/i2_2ec824b0.png");
+  background-position: -132px -38px;
+  opacity:.85;
+  width:30px;
+  height:30px;
+  background-size: 528px 68px;
+}
+
+.top_bar form{display:inline;}
+
+.right{
+  height:100%;
+  width: 40%;
+  right: 30px;
+  position: absolute;
+  text-align:right;
+}
+
+.left{
+  height:100%;
+  width: 60%;
+  position: absolute;
+  left:25px;
+}
+
+.search_options{
+  position:absolute;
+  padding-top:25px;
+  width:70%;
+  height:40px;
+  left: 130px;
+  padding-bottom:35px;
+  word-spacing: 15px;
+}
+
+.search_left, .search_right{
+  position: absolute;
+  vertical-align: top;
+}
+
+.search_left{
+  left:10px;
+  width:70%;
+}
+
+#selected_option{
+  color:rgb(70,131,234);
+  border-bottom: solid 5px rgb(70,131,234);
+  padding:0px 15px 17px 15px;
+  font-weight: bold;
+}
+
+.search_right{
+  right:10px;
+}
+
+a{
+  font-family: 'Roboto';
+  height: 100%;
+  text-decoration-line: none;
+  color: rgb(119,119,119);
+  vertical-align: middle;
+}
+
+a:hover{
+  color: black;
+}
+
+.main {
+  position: relative;
+  width: 42%;
+  left: 156px;
+  border: solid 1px black;
+  font-family: "Roboto";
+}
+
+#num_results{
+  color: rgb(120,120,120);
+  font-size: 13px;
+  margin: 15px 20px;
+}
+
+
+
+.foot {
+  height: 40px;
+  width: 100%;
+  background-image: -webkit-linear-gradient(top,rgb(242, 242,242),rgb(235,235,235));
+  position: absolute;
+  bottom: 0px;
+  border: solid 1px rgb(232,232,232);
+}

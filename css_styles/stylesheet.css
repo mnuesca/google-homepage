@@ -1,0 +1,125 @@
+*{box-sizing:border-box;
+  -webkit-appearance:none;
+  font-family:arial;
+}
+
+.navigation_bar{
+  position: absolute;
+  top: 20px;
+  width: 95%;
+  height: 30px;
+  font-size: 13px;
+  color:#000;
+  text-align:right;
+  word-spacing: 12px;
+}
+
+a{
+  font-family: arial;
+  height: 100%;
+  text-decoration-line: none;
+  color:#000;
+  vertical-align: middle;
+}
+
+a:hover{
+  text-decoration-line: underline;
+}
+.navigation_bar button{
+  background-image:-webkit-linear-gradient(top, rgb(67,135,253), rgb(70,131,234));
+  border: none;
+  radius: 15px;
+  height:100%;
+  color:white;
+  font-weight: bold;
+  font-size:13px;
+  width:70px;
+  vertical-align: middle;
+}
+button:active{
+  background-color: -webkit-linear-gradient(top, rgb(10,80,253), rgb(15,71,234))
+}
+
+.suite_menu{
+  display:inline-block;
+  background-image: url("https://ssl.gstatic.com/gb/images/i2_2ec824b0.png");
+  background-position: -132px -38px;
+  opacity:.85;
+  width:30px;
+  height:30px;
+  background-size: 528px 68px;
+}
+
+.main {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  top:200px;
+}
+
+.main img{
+  display:block;
+  position:relative;
+  width: 45%;
+  margin:auto;
+
+}
+#searchbar{
+  display:block;
+  margin:auto;
+  width:80%;
+  height:35px;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+  border:1px solid #eaeaea;
+  font-size: 16px;
+}
+.submit{
+  line-height: 35px;
+  position: relative;
+  text-align:center;
+  height: 40px;
+}
+.submit input[type=submit]{
+  width:125px;
+  height: 36px;
+  font-size:13px;
+  font-weight:bold;
+  border-style:solid;
+  border-radius:2px;
+  color:rgb(142,142,142);
+  background-color: rgb(242,242,242);
+  border-color: rgb(242,242,242);
+  margin:15px 5px;
+}
+.submit input[type=submit]:hover{
+  border:solid 0.4px rgb(240,240,240);
+  background-color:  rgb(245,245,245);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+  color: black;
+}
+
+.foot {
+  height: 40px;
+  width: 100%;
+  background-image: -webkit-linear-gradient(top,rgb(242, 242,242),rgb(235,235,235));
+  position: absolute;
+  bottom: 0px;
+  border: solid 1px rgb(232,232,232);
+}
+
+.right a, .left a{color: rgb(125,125,125);}
+.left {
+  position:absolute;
+  top:10px;
+  left: 20px;
+  word-spacing: 20px;
+  font-size:14px;
+}
+.right {
+  position:absolute;
+  top:10px;
+  right: 35px;
+  word-spacing: 20px;
+  font-size:14px;
+}
